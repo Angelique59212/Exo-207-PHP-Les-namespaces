@@ -6,12 +6,5 @@ use App\Model\Repository\Role as RoleRepository;
 
 class Role
 {
-    public function __construct()
-    {
-    }
-
-    public function save(role $role): Role
-    {
-        return $role;
-    }
+    private RoleRepository $role;
 }
