@@ -1,5 +1,9 @@
 <?php
 
+require __DIR__ .'include.php';
+
+
+
 /**
  * 1. Créez un dossier Entity
  * 2. Créez un dossier Manager ou mieux Repository
